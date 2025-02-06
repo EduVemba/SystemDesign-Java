@@ -9,7 +9,7 @@ public class Caretaker {
     public void addMemento(Memento memento) {
         mementoList.add(memento);
     }
-    public Memento getMemento(int index) {
+    public Memento getMemento(int index)   {
         return mementoList.get(index);
     }
 }
